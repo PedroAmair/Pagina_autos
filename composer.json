@@ -1,0 +1,17 @@
+{
+    "name": "pedrojose/autos",
+    "description": "Paquete de p\u0000gina autos",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Amair",
+            "email": "pedroamair@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
