@@ -83,7 +83,7 @@
             <?php while($vehiculo = mysqli_fetch_assoc($resultado)): ?>
                 <div class="seleccionado">
                     <div class="imagen">
-                        <img loading="lazy" src="/autos/img/imagenesSubidas/<?php echo $vehiculo["imagen"]; ?>" alt="imagen seleccionado">
+                        <img loading="lazy" src="/img/imagenesSubidas/<?php echo $vehiculo["imagen"]; ?>" alt="imagen seleccionado">
                     </div>
                             
                     <div class="modelo">

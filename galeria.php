@@ -15,7 +15,7 @@
             <?php while($vehiculo = mysqli_fetch_assoc($resultado)): ?>
                 <div class="auto">
                     <div class="imagen">
-                        <img loading="lazy" src="/autos/img/imagenesSubidas/<?php echo $vehiculo["imagen"]; ?>" alt="vehículo"></a>
+                        <img loading="lazy" src="/img/imagenesSubidas/<?php echo $vehiculo["imagen"]; ?>" alt="vehículo"></a>
                     </div>
                     
                     <div class="contenido-auto">

@@ -4,9 +4,9 @@
                 <nav class="navegacion">
                     <a class="<?php echo isset($_SESSION["login"]) ? 'invisible' : ''; ?>" href="/login.php">Iniciar sesión</a>
                     <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/admin/principalAdministracion.php">Administración</a>
-                    <a href="/autos/nosotros.php">Nosotros</a>
-                    <a href="/autos/galeria.php">Galería</a>
-                    <a href="/autos/contacto.php">Contacto</a>
+                    <a href="/nosotros.php">Nosotros</a>
+                    <a href="/galeria.php">Galería</a>
+                    <a href="/contacto.php">Contacto</a>
                     <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/cerrar-sesion.php">Cerrar sesión</a>
                 </nav>
             </div>
