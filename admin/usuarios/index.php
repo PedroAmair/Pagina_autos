@@ -22,7 +22,7 @@
             $resultado = mysqli_query($conn, $query);
     
             if($resultado) {
-                header("location: /autos/admin/usuarios?respuesta=3");
+                header("location: /admin/usuarios?respuesta=3");
             }
         }
         $errores[] = "No se puede eliminar el usuario";
@@ -65,7 +65,7 @@
                         <td><?php echo $usuario["nombre"]." ".$usuario["apellido"]; ?></td>
                         <td><?php echo $usuario['correo']; ?></td>
                         <td>
-                            <a href="/autos/admin/usuarios/actualizar.php?id=<?php echo $usuario['idusuario']; ?>" id="modificar" class="boton boton-azulOscuro btn-opciones opaco">
+                            <a href="/admin/usuarios/actualizar.php?id=<?php echo $usuario['idusuario']; ?>" id="modificar" class="boton boton-azulOscuro btn-opciones opaco">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-edit" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                     <path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />

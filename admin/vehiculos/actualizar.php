@@ -12,7 +12,7 @@
     $id = filter_var($id, FILTER_VALIDATE_INT);
 
     if(!$id) {
-        header("location: /autos/admin/vehiculos");
+        header("location: /admin/vehiculos");
     }
 
     $query = "SELECT * FROM vehiculos WHERE idvehiculo = ${id};";
@@ -77,7 +77,7 @@
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {
-                header("location: /autos/admin/vehiculos?respuesta=2"); 
+                header("location: /admin/vehiculos?respuesta=2"); 
              }else{
                  $errores[] ="falló la inserción";
              }      
@@ -129,7 +129,7 @@
                 <label for="imagen">Imagen</label>
                 <input type="file" id="imagen" name="imagen" accept="image/jpeg, image/png">
             </div>
-            <img src="/autos/img/imagenesSubidas/<?php echo $vehiculo["imagen"]; ?>" alt="auto para editar" class="auto-editar">
+            <img src="/img/imagenesSubidas/<?php echo $vehiculo["imagen"]; ?>" alt="auto para editar" class="auto-editar">
         </fieldset>
         <input type="submit" value="Enviar" class="boton boton-azulOscuro opaco">
     </form>

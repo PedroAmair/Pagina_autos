@@ -63,7 +63,7 @@
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {
-                header("location: /autos/admin/vehiculos?respuesta=1");
+                header("location: /admin/vehiculos?respuesta=1");
             }else{
                 $errores[] = "Falló la inserción";
             }

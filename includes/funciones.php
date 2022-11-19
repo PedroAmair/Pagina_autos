@@ -24,7 +24,7 @@ function esc($html) : string {
 
 function autenticado() : void {
     if(!$_SESSION["login"]) {
-        header("location: /autos/");
+        header("location: /");
     }
 }
 

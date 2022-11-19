@@ -27,7 +27,7 @@
             $resultado = mysqli_query($conn, $query);
     
             if($resultado) {
-                header("location: /autos/admin/vehiculos?respuesta=3");
+                header("location: /admin/vehiculos?respuesta=3");
             }
         }
     }
@@ -72,9 +72,9 @@
                         <td><?php echo $vehiculo['transmision']; ?></td>
                         <td><?php echo $vehiculo['ano']; ?></td>
                         <td><?php echo $vehiculo['precio']; ?> $</td>
-                        <td><img class="auto-miniatura" src="/autos/img/imagenesSubidas/<?php echo $vehiculo['imagen']; ?>" alt="imagen auto"></td>
+                        <td><img class="auto-miniatura" src="/img/imagenesSubidas/<?php echo $vehiculo['imagen']; ?>" alt="imagen auto"></td>
                         <td>
-                            <a href="/autos/admin/vehiculos/actualizar.php?id=<?php echo $vehiculo['idvehiculo']; ?>" id="modificar" class="boton boton-azulOscuro btn-opciones opaco">
+                            <a href="/admin/vehiculos/actualizar.php?id=<?php echo $vehiculo['idvehiculo']; ?>" id="modificar" class="boton boton-azulOscuro btn-opciones opaco">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-edit" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                     <path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />

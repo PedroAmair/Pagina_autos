@@ -12,7 +12,7 @@
     $id = filter_var($id, FILTER_VALIDATE_INT);
 
     if(!$id) {
-        header("location: /autos/admin/usuarios");
+        header("location: /admin/usuarios");
     }
 
     $query = "SELECT nombre, apellido, correo FROM usuarios WHERE idusuario = ${id};";
@@ -39,7 +39,7 @@
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {
-                header("location: /autos/admin/usuarios?respuesta=2"); 
+                header("location: /admin/usuarios?respuesta=2"); 
              }else{
                  $errores[] ="falló la inserción";
              }      

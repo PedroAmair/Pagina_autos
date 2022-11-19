@@ -702,6 +702,7 @@ legend {
 /*Index de zona administrativa*/
 .administracion {
     margin-top: 2rem;
+    margin-bottom: 20rem;
 }
 .contenido-administracion {
     border: 1px solid var(--negro);
