@@ -92,7 +92,7 @@
     <a class="boton boton-amarillo opaco" href="index.php">Volver</a>
 </div>
 
-<section class="vehiculos-crear medio-contenedor">
+<section class="vehiculos-actualizar medio-contenedor">
     <h2>Modificar vehículo</h2>
     <p class="subtitulo">Edite la información que desee y envíe el formulario</p>
 
