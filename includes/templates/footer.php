@@ -2,12 +2,12 @@
         <div class="contenido-footer">
             <div class="menu-inferior">
                 <nav class="navegacion">
-                    <a class="<?php echo isset($_SESSION["login"]) ? 'invisible' : ''; ?>" href="/autos/login.php">Iniciar sesión</a>
-                    <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/autos/admin/principalAdministracion.php">Administración</a>
+                    <a class="<?php echo isset($_SESSION["login"]) ? 'invisible' : ''; ?>" href="/login.php">Iniciar sesión</a>
+                    <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/admin/principalAdministracion.php">Administración</a>
                     <a href="/autos/nosotros.php">Nosotros</a>
                     <a href="/autos/galeria.php">Galería</a>
                     <a href="/autos/contacto.php">Contacto</a>
-                    <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/autos/cerrar-sesion.php">Cerrar sesión</a>
+                    <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/cerrar-sesion.php">Cerrar sesión</a>
                 </nav>
             </div>
 
@@ -53,24 +53,24 @@
     <?php 
         $ubicacionActual = $_SERVER["PHP_SELF"];
 
-        if($ubicacionActual == "/autos/index.php") {
-            echo "<script src='/autos/js/mapa.js'></script>";
-            echo "<script src= '/autos/js/leaflet.js'></script>";
+        if($ubicacionActual == "/index.php") {
+            echo "<script src= '/js/mapa.js'></script>";
+            echo "<script src= '/js/leaflet.js'></script>";
         } 
-        if($ubicacionActual == "/autos/contacto.php") {
-            echo "<script src= '/autos/js/formularioContacto.js'></script>";
+        if($ubicacionActual == "/contacto.php") {
+            echo "<script src= '/js/formularioContacto.js'></script>";
         } 
-        if($ubicacionActual == "/autos/admin/usuarios/index.php") {
-            echo "<script src= '/autos/js/notificacionesBD.js'></script>";
+        if($ubicacionActual == "/admin/usuarios/index.php") {
+            echo "<script src= '/js/notificacionesBD.js'></script>";
         }
-        if($ubicacionActual == "/autos/admin/vehiculos/index.php") {
-            echo "<script src= '/autos/js/notificacionesBD.js'></script>";
+        if($ubicacionActual == "/admin/vehiculos/index.php") {
+            echo "<script src= '/js/notificacionesBD.js'></script>";
         } 
-        if($ubicacionActual == "/autos/admin/usuarios/index.php") {
-            echo "<script src= '/autos/js/eliminarUsuario.js'></script>";
+        if($ubicacionActual == "/admin/usuarios/index.php") {
+            echo "<script src= '/js/eliminarUsuario.js'></script>";
         }
     ?>
-    <script src="/autos/js/modernizr.js"></script>
-    <script src="/autos/js/main.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

@@ -27,7 +27,7 @@
                 
                 <?php 
                     $activarVideo = $_SERVER["PHP_SELF"];
-                    if($activarVideo == "/autos/index.php") {
+                    if($activarVideo == "/index.php") {
                 ?>        
                 <video autoplay muted loop>
                     <source src="video/carro.mp4" type="video/mp4">
@@ -39,22 +39,22 @@
 
         <div class="barra-navegacion">
             <div class="logo">
-                <a href="/autos/index.php">
+                <a href="/index.php">
                     <h1>Nigaro Motors</h1>
                 </a>
             </div>
 
             <div class="menu-movil">
-                <img src="/autos/img/barras.svg" alt="menu para dispositivos pequeños">
+                <img src="/img/barras.svg" alt="menu para dispositivos pequeños">
             </div>
 
             <nav class="navegacion">
-                <a class="<?php echo isset($_SESSION["login"]) ? 'invisible' : ''; ?>" href="/autos/login.php">Iniciar sesión</a>
-                <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/autos/admin/principalAdministracion.php">Administración</a>
-                <a href="/autos/nosotros.php">Nosotros</a>
-                <a href="/autos/galeria.php">Galería</a>
-                <a href="/autos/contacto.php">Contacto</a>
-                <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/autos/cerrar-sesion.php">Cerrar sesión</a>
+                <a class="<?php echo isset($_SESSION["login"]) ? 'invisible' : ''; ?>" href="/login.php">Iniciar sesión</a>
+                <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/admin/principalAdministracion.php">Administración</a>
+                <a href="/nosotros.php">Nosotros</a>
+                <a href="/galeria.php">Galería</a>
+                <a href="/contacto.php">Contacto</a>
+                <a class="<?php echo isset($_SESSION["login"]) ? '' : 'invisible'; ?>" href="/cerrar-sesion.php">Cerrar sesión</a>
             </nav>
         </div>
     </header>
