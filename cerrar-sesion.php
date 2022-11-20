@@ -3,5 +3,5 @@
 
     $_SESSION = [];
 
-    header("location: /autos");
+    header("location: /");
 ?>
