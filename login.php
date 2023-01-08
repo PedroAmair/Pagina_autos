@@ -23,15 +23,13 @@
 
         if(empty($errores)) {
 
-            $query = "SELECT idusuario, nombre, apellido, contraseña FROM usuarios WHERE correo = '{$email}'; ";
+            $query = "SELECT * FROM usuarios WHERE correo = '{$email}'; ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado->num_rows) {
                 $usuario = mysqli_fetch_assoc($resultado);
                 
                 $auth = password_verify($password, $usuario["contraseña"]);
-
-                debuguear($usuario);
 
                 if($auth) {
                     $_SESSION["id"] = $usuario["idusuario"];
