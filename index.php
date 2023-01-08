@@ -1,11 +1,14 @@
 <?php 
     require_once "includes/app.php";
-    invocarTemplate("header", true);
+
+    session_start();
 
     $conn = conectarBD();
 
     $query = "SELECT * FROM vehiculos LIMIT 3; ";
     $resultado = mysqli_query($conn, $query);
+
+    invocarTemplate("header", true);
 ?>
 
     <main class="main contenedor">

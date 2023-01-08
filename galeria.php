@@ -1,11 +1,12 @@
 <?php 
     require_once "includes/app.php";
-    invocarTemplate("header");
 
     $conn = conectarBD();
 
     $query = "SELECT * FROM vehiculos; ";
     $resultado = mysqli_query($conn, $query);
+
+    invocarTemplate("header");
 ?>
 
     <section class="autos">
