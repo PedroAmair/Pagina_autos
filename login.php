@@ -1,6 +1,6 @@
 <?php 
     require_once "includes/app.php";
-    //invocarTemplate("header");
+    invocarTemplate("header");
     
     $conn = conectarBD();
 
