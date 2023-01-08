@@ -2,10 +2,10 @@
 
 function conectarBD() : mysqli {
     $bd = mysqli_connect(
-        $_ENV["DB_HOST"],
-        $_ENV["DB_USER"],
-        $_ENV["DB_PASS"] ?? "",
-        $_ENV["DB_BD"]
+        $_ENV["MYSQLHOST"],
+        $_ENV["MYSQLUSER"],
+        $_ENV["MYSQLPASSWORD"] ?? "",
+        $_ENV["MYSQLDATABASE"]
     );
     $bd->set_charset("utf8");
 
