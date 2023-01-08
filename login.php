@@ -53,7 +53,7 @@
     mysqli_close($conn);
 ?>
 
-<?php invocarTemplate("header");?>
+<?php invocarTemplate("header"); ?>
 
 <section class="iniciar-sesion mini-contenedor">
     <h2>Inicio de sesión</h2>

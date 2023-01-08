@@ -23,6 +23,7 @@ function esc($html) : string {
 }
 
 function autenticado() : void {
+    session_start();
     if(!$_SESSION["login"]) {
         header("location: /");
     }
