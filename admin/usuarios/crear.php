@@ -36,7 +36,7 @@
             $password = password_hash($password, PASSWORD_BCRYPT);
 
             $query = "INSERT INTO usuarios(nombre, apellido, correo, contraseña)
-                      VALUES ('${nombre}', '${apellido}', '${email}', '${password}'); ";
+                      VALUES ('{$nombre}', '{$apellido}', '{$email}', '{$password}'); ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {

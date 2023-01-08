@@ -15,7 +15,7 @@
         header("location: /admin/usuarios");
     }
 
-    $query = "SELECT nombre, apellido, correo FROM usuarios WHERE idusuario = ${id};";
+    $query = "SELECT nombre, apellido, correo FROM usuarios WHERE idusuario = {$id};";
     $resultado = mysqli_query($conn, $query);
     $usuario = mysqli_fetch_assoc($resultado);
 
@@ -35,7 +35,7 @@
         }
     
         if(empty($errores)) {
-            $query = "UPDATE usuarios SET nombre = '${nombre}', apellido = '${apellido}' WHERE idusuario = ${id}; ";
+            $query = "UPDATE usuarios SET nombre = '{$nombre}', apellido = '${apellido}' WHERE idusuario = ${id}; ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {

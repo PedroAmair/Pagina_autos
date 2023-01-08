@@ -18,7 +18,7 @@
         $id = filter_var($id, FILTER_VALIDATE_INT);
        
         if($id && $id !== intval($_SESSION["id"])) {
-            $query = "DELETE FROM usuarios WHERE idusuario = ${id}";
+            $query = "DELETE FROM usuarios WHERE idusuario = {$id}";
             $resultado = mysqli_query($conn, $query);
     
             if($resultado) {

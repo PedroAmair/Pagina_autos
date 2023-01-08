@@ -23,7 +23,7 @@
 
         if(empty($errores)) {
 
-            $query = "SELECT idusuario, nombre, apellido, contraseña FROM usuarios WHERE correo = '${email}'; ";
+            $query = "SELECT idusuario, nombre, apellido, contraseña FROM usuarios WHERE correo = '{$email}'; ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado->num_rows) {

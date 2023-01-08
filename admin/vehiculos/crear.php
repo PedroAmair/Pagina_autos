@@ -1,4 +1,4 @@
-<?php 
+{<?php 
     require_once "../../includes/app.php";
     invocarTemplate("header");
 
@@ -59,7 +59,7 @@
             move_uploaded_file($imagen["tmp_name"], $imagenesSubidas.$nombreImagen);
 
             $query = "INSERT INTO vehiculos(marca, modelo, transmision, precio, imagen, ano)
-                      VALUES ('${marca}', '${modelo}', '${transmision}', $precio, '${nombreImagen}', '${ano}'); ";
+                      VALUES ('{$marca}', '{$modelo}', '{$transmision}', $precio, '{$nombreImagen}', '{$ano}'); ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {

@@ -18,12 +18,12 @@
         $id = filter_var($id, FILTER_VALIDATE_INT);
        
         if($id) {
-            $query = "SELECT imagen FROM vehiculos WHERE idvehiculo = ${id}; ";
+            $query = "SELECT imagen FROM vehiculos WHERE idvehiculo = {$id}; ";
             $resultado = mysqli_query($conn, $query);
             $vehiculo = mysqli_fetch_assoc($resultado);
             unlink("../../img/imagenesSubidas/".$vehiculo["imagen"]);
 
-            $query = "DELETE FROM vehiculos WHERE idvehiculo = ${id}";
+            $query = "DELETE FROM vehiculos WHERE idvehiculo = {$id}";
             $resultado = mysqli_query($conn, $query);
     
             if($resultado) {

@@ -15,7 +15,7 @@
         header("location: /admin/vehiculos");
     }
 
-    $query = "SELECT * FROM vehiculos WHERE idvehiculo = ${id};";
+    $query = "SELECT * FROM vehiculos WHERE idvehiculo = {$id};";
     $resultado = mysqli_query($conn, $query);
     $vehiculo = mysqli_fetch_assoc($resultado);
 
@@ -72,8 +72,8 @@
                 $nombreImagen = $vehiculo["imagen"];
             }
 
-            $query = "UPDATE vehiculos SET marca = '${marca}', modelo = '${modelo}', transmision = '${transmision}',
-                      precio = ${precio}, ano = '${ano}', imagen = '${nombreImagen}' WHERE idvehiculo = ${id}; ";
+            $query = "UPDATE vehiculos SET marca = '{$marca}', modelo = '{$modelo}', transmision = '{$transmision}',
+                      precio = {$precio}, ano = '{$ano}', imagen = '{$nombreImagen}' WHERE idvehiculo = {$id}; ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {
