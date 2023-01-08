@@ -35,7 +35,7 @@
         }
     
         if(empty($errores)) {
-            $query = "UPDATE usuarios SET nombre = '{$nombre}', apellido = '${apellido}' WHERE idusuario = ${id}; ";
+            $query = "UPDATE usuarios SET nombre = '{$nombre}', apellido = '{$apellido}' WHERE idusuario = {$id}; ";
             $resultado = mysqli_query($conn, $query);
 
             if($resultado) {
