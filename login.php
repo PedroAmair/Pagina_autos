@@ -1,6 +1,5 @@
 <?php 
     require_once "includes/app.php";
-    invocarTemplate("header");
     
     $conn = conectarBD();
 
@@ -51,6 +50,7 @@
     }
 
     mysqli_close($conn);
+    invocarTemplate("header");
 ?>
 
 <section class="iniciar-sesion mini-contenedor">
