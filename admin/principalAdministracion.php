@@ -1,11 +1,10 @@
 <?php 
     require_once "../includes/app.php";
-    invocarTemplate("header");
-
     autenticado();
+    
+    invocarTemplate("header");
+    invocarTemplate("sesion"); 
 ?>
-
-<?php invocarTemplate("sesion"); ?>
 <section class="administracion contenedor">
     <h2>Área administrativa</h2>
 
