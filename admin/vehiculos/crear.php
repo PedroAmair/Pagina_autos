@@ -1,6 +1,5 @@
 {<?php 
     require_once "../../includes/app.php";
-    invocarTemplate("header");
 
     autenticado();
 
@@ -72,7 +71,10 @@
     mysqli_close($conn);
 ?>
 
-<?php invocarTemplate("sesion"); ?>
+<?php
+    invocarTemplate("header");
+    invocarTemplate("sesion"); 
+?>
 <div class="botones-navegacion">
     <a class="boton boton-amarillo opaco" href="index.php">Volver</a>
 </div>

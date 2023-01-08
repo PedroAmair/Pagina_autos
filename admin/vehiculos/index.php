@@ -1,6 +1,5 @@
 <?php 
     require_once "../../includes/app.php";
-    invocarTemplate("header");
 
     autenticado();
 
@@ -33,7 +32,10 @@
     }
 ?>
 
-<?php invocarTemplate("sesion"); ?>
+<?php
+    invocarTemplate("header");
+    invocarTemplate("sesion"); 
+?>
 <div class="botones-navegacion">
     <a class="boton boton-amarillo opaco" href="../principalAdministracion.php">Volver</a>
     <a class="boton boton-azul opaco" href="crear.php">Nuevo vehículo</a>
