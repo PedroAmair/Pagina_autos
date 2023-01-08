@@ -33,7 +33,7 @@
 
                 if($auth) {
                     $_SESSION["id"] = $usuario["idusuario"];
-                    $_SESSION["usuario"] = $usuario["correo"];
+                    $_SESSION["usuario"] = $usuario["email"];
                     $_SESSION["nombre"] = $usuario["nombre"];
                     $_SESSION["apellido"] = $usuario["apellido"];
                     $_SESSION["login"] = true;
