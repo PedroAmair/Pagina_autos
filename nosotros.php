@@ -1,5 +1,8 @@
 <?php 
     require_once "includes/app.php";
+
+    session_start();
+    
     invocarTemplate("header"); 
 ?>
 

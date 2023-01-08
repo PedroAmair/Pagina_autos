@@ -1,6 +1,8 @@
 <?php 
     require_once "includes/app.php";
 
+    session_start();
+
     $conn = conectarBD();
 
     $query = "SELECT * FROM vehiculos; ";
