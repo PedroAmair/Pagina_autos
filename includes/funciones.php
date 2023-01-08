@@ -13,7 +13,7 @@ function debuguear($var) {
 }
 
 function invocarTemplate(string $nombreT, bool $soloMenu = false, array $alertas = [], bool $exito = false) {
-    include TEMPLATES_URL."/${nombreT}.php";
+    include TEMPLATES_URL."/{$nombreT}.php";
 }
 
 /*Escapar el HTML*/
