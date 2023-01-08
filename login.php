@@ -31,6 +31,7 @@
                 $auth = password_verify($password, $usuario["contraseña"]);
 
                 if($auth) {
+                    session_start();
                     $_SESSION["id"] = $usuario["idusuario"];
                     $_SESSION["usuario"] = $usuario["correo"];
                     $_SESSION["nombre"] = $usuario["nombre"];
