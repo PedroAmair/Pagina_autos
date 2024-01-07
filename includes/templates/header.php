@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body class="contenedor-maximo">
     <header class="header">
             <div class="presentacion <?php echo $soloMenu ? '' : 'soloMenu'; ?>">
                 <div class="overlay-presentacion">

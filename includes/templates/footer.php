@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer contenedor-maximo">
         <div class="contenido-footer">
             <div class="menu-inferior">
                 <nav class="navegacion">

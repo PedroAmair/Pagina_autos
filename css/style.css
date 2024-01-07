@@ -33,6 +33,16 @@ body {
     margin: 0;
 }
 
+.contenedor-maximo {
+    max-width: 256rem;
+    margin: 0 auto;
+}
+
+.contenedor-grande {
+    width: min(90%, 160rem);
+    margin: 0 auto;
+}
+
 .contenedor {
     width: min(90%, 120rem);
     margin: 0 auto;
@@ -123,6 +133,7 @@ h1, h2, h3 {
     position: relative;
     max-height: 70rem;
     min-height: 50rem;
+    max-height: 250rem;
     overflow: hidden;
 }
 
@@ -132,13 +143,13 @@ h1, h2, h3 {
 }
 
 video {
-    width: auto;
-    display: block;
+    display: none;
 }
 
 @media(min-width: 992px) {
     video {
         width: 100%;
+        display:block;
     }
 }
 
@@ -290,6 +301,14 @@ video {
     margin-bottom: 1rem;
 }
 
+@media(min-width: 1900px) {
+    .contenido p {
+        font-size: 2.5rem;
+    }
+}
+
+
+
 .contenido p:last-of-type {
     margin-bottom: 0;
 }
@@ -321,23 +340,21 @@ video {
 }
 
 .imagen {
-    height: 21rem;
+    height: 20rem;
     max-width: 40rem;
     margin-top: 2rem;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 1900px) {
     .imagen {
-        height: 19rem;
         width: auto;
-        margin-bottom: 1rem;
     }
 }
 
 .modelo {
     background-color: var(--azulClaro);
     border-radius: 2rem;
-    padding: .5rem;
+    padding: 1rem;
     max-width: 42rem;
 }
 
@@ -421,9 +438,10 @@ video {
     border-radius: 20%;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 1900px) {
     .testimonio {
         width: auto;
+        height: 45rem;
     }
 }
 
@@ -465,17 +483,28 @@ video {
 .testimonio-texto p {
     text-align: right;
     font-size: 2.4rem;
-    margin: 1rem 0 0 0;
+    margin: 1rem 1rem 0 0;
+}
+
+@media(min-width: 1900px) {
+    .testimonio-texto p {
+        font-size: 3rem;
+    }
 }
 
 .testimonio-texto blockquote {
-    line-height: 1.5;
-    font-size: 2rem;
-    margin: 0;
+    font-size: 2.2rem;
+    margin: 1rem;
+}
+
+@media(min-width: 1900px) {
+    .testimonio-texto blockquote {
+        font-size: 3.9rem;
+    }
 }
 
 blockquote span {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 

@@ -11,7 +11,7 @@
     invocarTemplate("header", true);
 ?>
 
-    <main class="main contenedor">
+    <main class="main contenedor-grande">
         <h2>¿Por qué preferirnos?</h2>
         <section class="elegirnos-razones">
             <div class="vehiculos">
@@ -52,7 +52,7 @@
                     <p>
                         Todos nuestros vehículos, tanto nuevos como usados tienen sus 
                         documentos al día. De este modo usted tendrá toda la tranquilidad 
-                        de no tener que hacer trámites engorrosos; una vez hecha la compra 
+                        de no tener que hacer trámites engorrosos. Una vez hecha la compra 
                         podrá irse de inmediato.
                     </p>
                 </div>
@@ -80,7 +80,7 @@
         </section>
     </main>
 
-    <section class="galeria contenedor">
+    <section class="galeria contenedor-grande">
         <h2>Los más vendidos</h2>
         <div class="galeria-seleccionados">
             <?php while($vehiculo = mysqli_fetch_assoc($resultado)): ?>
@@ -110,7 +110,7 @@
         <a href="contacto.php" class="boton boton-amarillo opaco">Contáctanos</a>
     </section>
 
-    <section class="testimonios contenedor">
+    <section class="testimonios contenedor-grande">
         <h2>Testimonios de nuestros compradores</h2>
         <div class="testimonios-seleccionados">
             <div class="testimonio">
@@ -136,7 +136,7 @@
             <div class="testimonio">
                 <div class="testimonio-texto">
                     <blockquote>
-                        <span>"</span> Es una compañia seria que te da una muy buena asesoría y ofrece
+                        <span>"</span> Es una compañia seria que te brinda una muy buena asesoría y ofrece
                         solo vehículos de calidad. Estoy muy feliz<span>"</span>.
                     </blockquote>
                     <p>Indira Rodríguez</p>
