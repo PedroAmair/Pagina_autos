@@ -36,7 +36,7 @@
     <a class="boton boton-amarillo opaco" href="../principalAdministracion.php">Volver</a>
     <a class="boton boton-azul opaco" href="crear.php">Nuevo usuario</a>
 </div>
-<section class="usuarios-mostrar medio-contenedor">
+<section class="usuarios-mostrar contenedor-grande">
     <h2>Usuarios existentes</h2>
     <div id="notificacionUsuario">
         <?php invocarTemplate("alertas", false, $errores); ?>

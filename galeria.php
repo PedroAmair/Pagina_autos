@@ -14,7 +14,7 @@
     <section class="autos">
         <h2>Nuestros vehículos</h2>
 
-        <div class="galeria-autos contenedor">
+        <div class="galeria-autos contenedor-grande">
             <?php while($vehiculo = mysqli_fetch_assoc($resultado)): ?>
                 <div class="auto">
                     <div class="imagen">

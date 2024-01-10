@@ -7,7 +7,7 @@
 ?>
 
 
-    <section class="nosotros contenedor">
+    <section class="nosotros contenedor-grande">
         <div class="nosotros-imagen"></div>
 
         <div class="nosotros-contenido">

@@ -79,7 +79,7 @@
     <a class="boton boton-amarillo opaco" href="index.php">Volver</a>
 </div>
 
-<section class="vehiculos-crear medio-contenedor">
+<section class="vehiculos-crear contenedor-grande">
     <h2>Agregar vehículo</h2>
     <p class="subtitulo">Complete la información solicitada</p>
 

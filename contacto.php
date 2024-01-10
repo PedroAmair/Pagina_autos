@@ -6,7 +6,7 @@
     invocarTemplate("header"); 
 ?>
 
-    <section class="contacto contenedor">
+    <section class="contacto contenedor-grande">
         <h2>Contacto</h2>
         <div class="imagen-banner"></div>
 

@@ -117,7 +117,7 @@
                 <div class="testimonio-texto">
                     <blockquote>
                        <span>"</span>Excelente atención del agente de venta, aclaró
-                       todas mis dudas. Satisfecha con mi lujoso auto nuevo<span>"</span>.
+                       todas mis dudas. Satisfecha con mi lujoso auto nuevo<span>"</span>
                     </blockquote>
                     <p>Alana Torres</p>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="testimonio-texto">
                     <blockquote>
                         <span>"</span>Estoy feliz con mi compra. Todo fue rápido y transparente.
-                        Disfruto de la potencia de mi carro deportivo<span>"</span>.
+                        Disfruto de la potencia de mi carro deportivo<span>"</span>
                     </blockquote>
                     <p>Manuel Plasencia</p>
                 </div>
@@ -137,7 +137,7 @@
                 <div class="testimonio-texto">
                     <blockquote>
                         <span>"</span> Es una compañia seria que te brinda una muy buena asesoría y ofrece
-                        solo vehículos de calidad. Estoy muy feliz<span>"</span>.
+                        solo vehículos de calidad. Estoy muy feliz<span>"</span>
                     </blockquote>
                     <p>Indira Rodríguez</p>
                 </div>

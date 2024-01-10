@@ -5,7 +5,7 @@
     invocarTemplate("header");
     invocarTemplate("sesion"); 
 ?>
-<section class="administracion contenedor">
+<section class="administracion contenedor-grande">
     <h2>Área administrativa</h2>
 
     <div class="contenido-administracion">
