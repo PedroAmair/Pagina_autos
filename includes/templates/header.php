@@ -20,7 +20,7 @@
                 <div class="overlay-presentacion">
                     <div class="contenido-presentacion">
                         <h2>Nigaro Motors</h2>
-                        <p>Tu mejor opción para comprar vehículos nuevos y usados</p>
+                        <p>Tu mejor opción para comprar vehículos nuevos o usados</p>
                     </div>
                 </div>
                 
