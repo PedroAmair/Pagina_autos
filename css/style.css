@@ -425,7 +425,6 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 3rem;
 }
 
@@ -434,6 +433,7 @@ video {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 3rem;
+        justify-content: center;
     }
 }
 
