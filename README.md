@@ -9,7 +9,7 @@ For access to the administrative section of the project you can contact me to pa
 
 <a href="https://proyectoautos.up.railway.app/">Website</a>
 
-<h3>Spanish</h3>
+<h3>Español</h3>
 Proyecto web sobre un concesionario de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro, sin usar ningún framework.
 
 El portal web tiene una sección administrativa divida en dos áreas con sus respectivos CRUD para la gestión, tanto de usuarios administrativos como de vehículos publicados.
