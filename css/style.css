@@ -401,11 +401,23 @@ video {
     }
 }
 
+@media(min-width:1900px) {
+    .imagen-contacto h2 {
+        font-size: 4rem;
+    }
+}
+
 .imagen-contacto p {
     font-weight: bold;
     text-align: center;
     margin-top: 0;
     color: var(--blanco);
+}
+
+@media(min-width:1900px) {
+    .imagen-contacto p {
+        font-size: 2rem;
+    }
 }
 
 .imagen-contacto a {
