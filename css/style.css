@@ -354,19 +354,19 @@ video {
 
 @media(min-width: 768px) {
     .imagen {
-        height: 12rem;
+        height: 14rem;
         width: auto;
     }
 }
 
 @media(min-width: 1024px) {
     .imagen {
-        height: 15rem;
+        height: 17rem;
         width: auto;
     }
 }
 
-@media(min-width: 1300px) {
+@media(min-width: 1256px) {
     .imagen {
         height: 20rem;
         width: auto;
