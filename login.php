@@ -40,7 +40,7 @@
 
                     header("location: admin/principalAdministracion.php");
                     
-                }else{
+                }else {
                     $errores[] = "Datos incorrectos";
                 }
             }else {

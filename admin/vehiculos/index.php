@@ -40,6 +40,7 @@
     <a class="boton boton-amarillo opaco" href="../principalAdministracion.php">Volver</a>
     <a class="boton boton-azul opaco" href="crear.php">Nuevo vehículo</a>
 </div>
+
 <section class="vehiculos-mostrar contenedor-grande">
     <h2>Vehículos listados</h2>
     <div id="notificaciones">

@@ -77,9 +77,9 @@
 
             if($resultado) {
                 header("location: /admin/vehiculos?respuesta=2"); 
-             }else{
-                 $errores[] ="falló la inserción";
-             }      
+            }else{
+                $errores[] ="falló la inserción";
+            }      
         }
     }
 

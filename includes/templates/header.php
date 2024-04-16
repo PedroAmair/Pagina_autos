@@ -28,11 +28,11 @@
                     $activarVideo = $_SERVER["PHP_SELF"];
                     if($activarVideo == "/index.php") {
                 ?>        
-                <video autoplay muted loop>
-                    <source src="video/carro.mp4" type="video/mp4">
-                    <source src="video/carro.ogv" type="video/ogg">
-                    <source src="video/carro.webm" type="video/webm">
-                </video>
+                    <video autoplay muted loop>
+                        <source src="video/carro.mp4" type="video/mp4">
+                        <source src="video/carro.ogv" type="video/ogg">
+                        <source src="video/carro.webm" type="video/webm">
+                    </video>
                 <?php } ?>
             </div>
 
